@@ -2,6 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://www.example.com/contact/</loc>
+    <lastmod>2022-11-25T15:15:47+05:30</lastmod>
+  </url><url>
     <loc>http://www.example.com/about/</loc>
     <lastmod>2022-11-25T10:45:58+05:30</lastmod>
   </url><url>

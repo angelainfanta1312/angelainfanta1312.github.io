@@ -8,6 +8,15 @@
     <language>en</language>
     <lastBuildDate>Fri, 25 Nov 2022 10:40:10 +0530</lastBuildDate><atom:link href="http://www.example.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>For Discussions/ Further Queries: </title>
+      <link>http://www.example.com/contact/</link>
+      <pubDate>Fri, 25 Nov 2022 15:15:47 +0530</pubDate>
+      
+      <guid>http://www.example.com/contact/</guid>
+      <description>Email me at : angelainfanta1312@gmail.com angela.infanta@protonmail.com </description>
+    </item>
+    
+    <item>
       <title>About</title>
       <link>http://www.example.com/about/</link>
       <pubDate>Fri, 25 Nov 2022 10:45:58 +0530</pubDate>
