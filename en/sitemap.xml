@@ -2,91 +2,91 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://www.example.com/contact/</loc>
+    <loc>http://angelainfanta1312.github.io/contact/</loc>
     <lastmod>2022-11-25T15:15:47+05:30</lastmod>
   </url><url>
-    <loc>http://www.example.com/about/</loc>
+    <loc>http://angelainfanta1312.github.io/about/</loc>
     <lastmod>2022-11-25T10:45:58+05:30</lastmod>
   </url><url>
-    <loc>http://www.example.com/tags/ai/</loc>
+    <loc>http://angelainfanta1312.github.io/tags/ai/</loc>
     <lastmod>2022-11-25T10:40:10+05:30</lastmod>
   </url><url>
-    <loc>http://www.example.com/authors/angela/</loc>
+    <loc>http://angelainfanta1312.github.io/authors/angela/</loc>
     <lastmod>2022-11-25T10:40:10+05:30</lastmod>
   </url><url>
-    <loc>http://www.example.com/</loc>
-    <lastmod>2022-11-25T10:40:10+05:30</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt-br"
-                href="http://www.example.com/pt-br/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://www.example.com/"
-                />
-  </url><url>
-    <loc>http://www.example.com/posts/initial_post/</loc>
-    <lastmod>2022-11-25T10:40:10+05:30</lastmod>
-  </url><url>
-    <loc>http://www.example.com/authors/</loc>
+    <loc>http://angelainfanta1312.github.io/</loc>
     <lastmod>2022-11-25T10:40:10+05:30</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-br"
-                href="http://www.example.com/pt-br/authors/"
+                href="http://angelainfanta1312.github.io/pt-br/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://www.example.com/authors/"
+                href="http://angelainfanta1312.github.io/"
                 />
   </url><url>
-    <loc>http://www.example.com/authors/divine/</loc>
+    <loc>http://angelainfanta1312.github.io/posts/initial_post/</loc>
     <lastmod>2022-11-25T10:40:10+05:30</lastmod>
   </url><url>
-    <loc>http://www.example.com/tags/ml/</loc>
-    <lastmod>2022-11-25T10:40:10+05:30</lastmod>
-  </url><url>
-    <loc>http://www.example.com/posts/</loc>
-    <lastmod>2022-11-25T10:40:10+05:30</lastmod>
-  </url><url>
-    <loc>http://www.example.com/tags/</loc>
+    <loc>http://angelainfanta1312.github.io/authors/</loc>
     <lastmod>2022-11-25T10:40:10+05:30</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-br"
-                href="http://www.example.com/pt-br/tags/"
+                href="http://angelainfanta1312.github.io/pt-br/authors/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://www.example.com/tags/"
+                href="http://angelainfanta1312.github.io/authors/"
                 />
   </url><url>
-    <loc>http://www.example.com/categories/</loc>
+    <loc>http://angelainfanta1312.github.io/authors/divine/</loc>
+    <lastmod>2022-11-25T10:40:10+05:30</lastmod>
+  </url><url>
+    <loc>http://angelainfanta1312.github.io/tags/ml/</loc>
+    <lastmod>2022-11-25T10:40:10+05:30</lastmod>
+  </url><url>
+    <loc>http://angelainfanta1312.github.io/posts/</loc>
+    <lastmod>2022-11-25T10:40:10+05:30</lastmod>
+  </url><url>
+    <loc>http://angelainfanta1312.github.io/tags/</loc>
+    <lastmod>2022-11-25T10:40:10+05:30</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-br"
-                href="http://www.example.com/pt-br/categories/"
+                href="http://angelainfanta1312.github.io/pt-br/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://www.example.com/categories/"
+                href="http://angelainfanta1312.github.io/tags/"
                 />
   </url><url>
-    <loc>http://www.example.com/series/</loc>
+    <loc>http://angelainfanta1312.github.io/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-br"
-                href="http://www.example.com/pt-br/series/"
+                href="http://angelainfanta1312.github.io/pt-br/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://www.example.com/series/"
+                href="http://angelainfanta1312.github.io/categories/"
+                />
+  </url><url>
+    <loc>http://angelainfanta1312.github.io/series/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="http://angelainfanta1312.github.io/pt-br/series/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://angelainfanta1312.github.io/series/"
                 />
   </url>
 </urlset>

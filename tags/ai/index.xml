@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>AI on Angela Infanta</title>
-    <link>http://www.example.com/tags/ai/</link>
+    <link>http://angelainfanta1312.github.io/tags/ai/</link>
     <description>Recent content in AI on Angela Infanta</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 25 Nov 2022 10:40:10 +0530</lastBuildDate><atom:link href="http://www.example.com/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 25 Nov 2022 10:40:10 +0530</lastBuildDate><atom:link href="http://angelainfanta1312.github.io/tags/ai/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Angela&#39;s First Blog</title>
-      <link>http://www.example.com/posts/initial_post/</link>
+      <link>http://angelainfanta1312.github.io/posts/initial_post/</link>
       <pubDate>Fri, 25 Nov 2022 10:40:10 +0530</pubDate>
       
-      <guid>http://www.example.com/posts/initial_post/</guid>
+      <guid>http://angelainfanta1312.github.io/posts/initial_post/</guid>
       <description>Hii everyone:)</description>
     </item>
     
