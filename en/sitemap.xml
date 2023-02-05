@@ -2,20 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://angelainfanta1312.github.io/contact/</loc>
-    <lastmod>2022-11-25T15:15:47+05:30</lastmod>
-  </url><url>
-    <loc>http://angelainfanta1312.github.io/about/</loc>
-    <lastmod>2022-11-25T10:45:58+05:30</lastmod>
-  </url><url>
-    <loc>http://angelainfanta1312.github.io/tags/ai/</loc>
-    <lastmod>2022-11-25T10:40:10+05:30</lastmod>
+    <loc>http://angelainfanta1312.github.io/posts/a-thought-undefined/</loc>
+    <lastmod>2023-01-02T20:39:57+05:30</lastmod>
   </url><url>
     <loc>http://angelainfanta1312.github.io/authors/angela/</loc>
-    <lastmod>2022-11-25T10:40:10+05:30</lastmod>
+    <lastmod>2023-01-02T20:39:57+05:30</lastmod>
   </url><url>
     <loc>http://angelainfanta1312.github.io/</loc>
-    <lastmod>2022-11-25T10:40:10+05:30</lastmod>
+    <lastmod>2023-01-02T20:39:57+05:30</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-br"
@@ -27,11 +21,8 @@
                 href="http://angelainfanta1312.github.io/"
                 />
   </url><url>
-    <loc>http://angelainfanta1312.github.io/posts/initial_post/</loc>
-    <lastmod>2022-11-25T10:40:10+05:30</lastmod>
-  </url><url>
     <loc>http://angelainfanta1312.github.io/authors/</loc>
-    <lastmod>2022-11-25T10:40:10+05:30</lastmod>
+    <lastmod>2023-01-02T20:39:57+05:30</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-br"
@@ -43,17 +34,17 @@
                 href="http://angelainfanta1312.github.io/authors/"
                 />
   </url><url>
-    <loc>http://angelainfanta1312.github.io/authors/divine/</loc>
-    <lastmod>2022-11-25T10:40:10+05:30</lastmod>
+    <loc>http://angelainfanta1312.github.io/tags/non-technical/</loc>
+    <lastmod>2023-01-02T20:39:57+05:30</lastmod>
   </url><url>
-    <loc>http://angelainfanta1312.github.io/tags/ml/</loc>
-    <lastmod>2022-11-25T10:40:10+05:30</lastmod>
+    <loc>http://angelainfanta1312.github.io/tags/poem/</loc>
+    <lastmod>2023-01-02T20:39:57+05:30</lastmod>
   </url><url>
     <loc>http://angelainfanta1312.github.io/posts/</loc>
-    <lastmod>2022-11-25T10:40:10+05:30</lastmod>
+    <lastmod>2023-01-02T20:39:57+05:30</lastmod>
   </url><url>
     <loc>http://angelainfanta1312.github.io/tags/</loc>
-    <lastmod>2022-11-25T10:40:10+05:30</lastmod>
+    <lastmod>2023-01-02T20:39:57+05:30</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-br"
@@ -64,6 +55,24 @@
                 hreflang="en"
                 href="http://angelainfanta1312.github.io/tags/"
                 />
+  </url><url>
+    <loc>http://angelainfanta1312.github.io/contact/</loc>
+    <lastmod>2022-11-25T15:15:47+05:30</lastmod>
+  </url><url>
+    <loc>http://angelainfanta1312.github.io/about/</loc>
+    <lastmod>2022-11-25T10:45:58+05:30</lastmod>
+  </url><url>
+    <loc>http://angelainfanta1312.github.io/posts/if-it-is-meant-to-be/</loc>
+    <lastmod>2022-10-14T20:19:41+05:30</lastmod>
+  </url><url>
+    <loc>http://angelainfanta1312.github.io/posts/happy-birthday-julie/</loc>
+    <lastmod>2022-09-04T20:16:59+05:30</lastmod>
+  </url><url>
+    <loc>http://angelainfanta1312.github.io/posts/definition-of-fun/</loc>
+    <lastmod>2022-07-29T20:07:07+05:30</lastmod>
+  </url><url>
+    <loc>http://angelainfanta1312.github.io/posts/friends-through-a-4-year-sail/</loc>
+    <lastmod>2022-07-22T19:58:12+05:30</lastmod>
   </url><url>
     <loc>http://angelainfanta1312.github.io/categories/</loc>
     <xhtml:link
