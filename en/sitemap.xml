@@ -2,9 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://angelainfanta1312.github.io/posts/exhaustion/</loc>
-    <lastmod>2023-02-06T23:58:08+05:30</lastmod>
-  </url><url>
     <loc>http://angelainfanta1312.github.io/authors/angela/</loc>
     <lastmod>2023-02-06T23:58:08+05:30</lastmod>
   </url><url>
@@ -33,6 +30,9 @@
                 hreflang="en"
                 href="http://angelainfanta1312.github.io/authors/"
                 />
+  </url><url>
+    <loc>http://angelainfanta1312.github.io/posts/exhaustion/</loc>
+    <lastmod>2023-02-06T23:58:08+05:30</lastmod>
   </url><url>
     <loc>http://angelainfanta1312.github.io/tags/non-technical/</loc>
     <lastmod>2023-02-06T23:58:08+05:30</lastmod>
