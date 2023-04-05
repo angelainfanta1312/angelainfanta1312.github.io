@@ -6,13 +6,31 @@
     <description>Recent content in Timeline of projects on Angela Infanta</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 05 Jan 2023 19:31:39 +0530</lastBuildDate><atom:link href="http://angelainfanta1312.github.io/timeline-of-project/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 26 Mar 2023 15:04:19 +0530</lastBuildDate><atom:link href="http://angelainfanta1312.github.io/timeline-of-project/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Implementation of Different Software Testing Mechanisms</title>
-      <link>http://angelainfanta1312.github.io/timeline-of-project/implementation-of-different-software-testing-mechanisms/</link>
+      <title>Spotiface</title>
+      <link>http://angelainfanta1312.github.io/timeline-of-project/spotiface/</link>
+      <pubDate>Sun, 26 Mar 2023 15:04:19 +0530</pubDate>
+      
+      <guid>http://angelainfanta1312.github.io/timeline-of-project/spotiface/</guid>
+      <description>This is an embedded Microsoft Office PDF, powered by Office. </description>
+    </item>
+    
+    <item>
+      <title>Implementation of Different Software Testing Mechanisms-II</title>
+      <link>http://angelainfanta1312.github.io/timeline-of-project/implementation-of-different-software-mechanisms-ii/</link>
+      <pubDate>Mon, 20 Feb 2023 19:31:39 +0530</pubDate>
+      
+      <guid>http://angelainfanta1312.github.io/timeline-of-project/implementation-of-different-software-mechanisms-ii/</guid>
+      <description>Regression TestingStress TestingThis is an embedded Microsoft Office PDF, powered by Office.</description>
+    </item>
+    
+    <item>
+      <title>Implementation of Different Software Testing Mechanisms-I</title>
+      <link>http://angelainfanta1312.github.io/timeline-of-project/implementation-of-different-software-testing-mechanisms-i/</link>
       <pubDate>Thu, 05 Jan 2023 19:31:39 +0530</pubDate>
       
-      <guid>http://angelainfanta1312.github.io/timeline-of-project/implementation-of-different-software-testing-mechanisms/</guid>
+      <guid>http://angelainfanta1312.github.io/timeline-of-project/implementation-of-different-software-testing-mechanisms-i/</guid>
       <description>Unit Testing Structural Testing Automation Testing This is an embedded Microsoft Office PDF, powered by Office. </description>
     </item>
     
