@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>devOps on Angela Infanta</title>
+    <link>http://angelainfanta1312.github.io/tags/devops/</link>
+    <description>Recent content in devOps on Angela Infanta</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 18 Apr 2023 12:31:19 +0530</lastBuildDate><atom:link href="http://angelainfanta1312.github.io/tags/devops/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introduction to DevOps</title>
+      <link>http://angelainfanta1312.github.io/posts/introduction-to-devops/</link>
+      <pubDate>Tue, 18 Apr 2023 12:31:19 +0530</pubDate>
+      
+      <guid>http://angelainfanta1312.github.io/posts/introduction-to-devops/</guid>
+      <description>DevOps is a term that is used to describe the collective working culture of the Software Development and the Operations teams which enhances not only the rapid and continuous integration and delivery of the software but also the Client-Business relationship compared to any other traditional software Entity.Why is there a need for DevOps?
+The development Team focuses primarily on fixing pre-existing features or developing new Features as per the client requirement.</description>
+    </item>
+    
+  </channel>
+</rss>
