@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>
+  Exploration of Docker for container management by developing a simple containerized application. · Angela Infanta
+</title>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
+
+
+
+
+<meta name="author" content="Er. Angela Infanta Ramesh">
+<meta name="description" content="Pre requisites: Knowledge on Operating Systems & Containerization (Intermediate), Linux command-line usage (basic), devOps What is a Docker? A Docker is an application which helps us in the allocation and management of containers in an effective way. The installation of Docker on Linux- distros especially Ubuntu is much convenient than on Windows because of its functionality based on the Linux-kernel. Through this blog we will explore Docker at the beginner level thereby understanding the need of its usage and how it facilitates the automation of CI/CD pipeline.">
+<meta name="keywords" content="blog, developer, personal">
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Exploration of Docker for container management by developing a simple containerized application."/>
+<meta name="twitter:description" content="Pre requisites: Knowledge on Operating Systems & Containerization (Intermediate), Linux command-line usage (basic), devOps What is a Docker? A Docker is an application which helps us in the allocation and management of containers in an effective way. The installation of Docker on Linux- distros especially Ubuntu is much convenient than on Windows because of its functionality based on the Linux-kernel. Through this blog we will explore Docker at the beginner level thereby understanding the need of its usage and how it facilitates the automation of CI/CD pipeline."/>
+
+<meta property="og:title" content="Exploration of Docker for container management by developing a simple containerized application." />
+<meta property="og:description" content="Pre requisites: Knowledge on Operating Systems & Containerization (Intermediate), Linux command-line usage (basic), devOps What is a Docker? A Docker is an application which helps us in the allocation and management of containers in an effective way. The installation of Docker on Linux- distros especially Ubuntu is much convenient than on Windows because of its functionality based on the Linux-kernel. Through this blog we will explore Docker at the beginner level thereby understanding the need of its usage and how it facilitates the automation of CI/CD pipeline." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://angelainfanta1312.github.io/posts/docker/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-06-17T00:31:06+05:30" />
+<meta property="article:modified_time" content="2023-06-17T00:31:06+05:30" />
+
+
+
+
+
+<link rel="canonical" href="http://angelainfanta1312.github.io/posts/docker/">
+
+
+<link rel="preload" href="/fonts/forkawesome-webfont.woff2?v=1.2.0" as="font" type="font/woff2" crossorigin>
+
+
+  
+  
+  <link rel="stylesheet" href="/css/coder.min.c4d7e93a158eda5a65b3df343745d2092a0a1e2170feeec909b8a89443903c6a.css" integrity="sha256-xNfpOhWO2lpls980N0XSCSoKHiFw/u7JCbiolEOQPGo=" crossorigin="anonymous" media="screen" />
+
+
+
+
+
+
+  
+    
+    
+    <link rel="stylesheet" href="/css/coder-dark.min.78b5fe3864945faf5207fb8fe3ab2320d49c3365def0e88ac1df0ddadc54a03c.css" integrity="sha256-eLX&#43;OGSUX69SB/uP46sjINScM2Xe8OiKwd8N2txUoDw=" crossorigin="anonymous" media="screen" />
+  
+
+
+
+ 
+
+
+
+
+<link rel="icon" type="image/png" href="/img/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/img/favicon-16x16.png" sizes="16x16">
+
+<link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+<meta name="generator" content="Hugo 0.106.0">
+
+
+
+
+
+  </head>
+
+
+
+
+
+
+<body class="preload-transitions colorscheme-auto">
+  
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+  <main class="wrapper">
+    <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="/">
+      Angela Infanta
+    </a>
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/about/">About</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/posts/">Blog</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/timeline-of-project/">Projects</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/certifications/">Certifications</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/contact/">Contact me</a>
+            </li>
+          
+        
+        
+          
+          
+          
+            
+          
+            
+              
+                <li class="navigation-item menu-separator">
+                  <span>|</span>
+                </li>
+                
+              
+              <li class="navigation-item">
+                <a href="http://angelainfanta1312.github.io/pt-br/">🇧🇷</a>
+              </li>
+            
+          
+        
+      </ul>
+    
+  </section>
+</nav>
+
+
+    <div class="content">
+      
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">
+            <a class="title-link" href="http://angelainfanta1312.github.io/posts/docker/">
+              Exploration of Docker for container management by developing a simple containerized application.
+            </a>
+          </h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fa fa-calendar" aria-hidden="true"></i>
+              <time datetime="2023-06-17T00:31:06&#43;05:30">
+                June 17, 2023
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fa fa-clock-o" aria-hidden="true"></i>
+              6-minute read
+            </span>
+          </div>
+          <div class="authors">
+  <i class="fa fa-user" aria-hidden="true"></i>
+    <a href="/authors/angela/">Angela</a></div>
+
+          
+          <div class="tags">
+  <i class="fa fa-tag" aria-hidden="true"></i>
+    <span class="tag">
+      <a href="/tags/devops/">devOps</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/technical/">technical</a>
+    </span></div>
+
+        </div>
+      </header>
+
+      <div>
+        
+        
+
+<b>Pre requisites: </b> Knowledge on Operating Systems & Containerization (Intermediate), Linux command-line usage (basic), <a  href = "https://angelainfanta1312.github.io/posts/introduction-to-devops/"> devOps </a>
+<br><br>
+<b>What is a Docker? </b> A Docker is an application which helps us in the allocation and management of containers in an effective way. The installation of Docker on Linux- distros especially Ubuntu is much convenient than on Windows because of its functionality based on the Linux-kernel. Through this blog we will explore Docker at the beginner level thereby understanding the need of its usage and how it facilitates the automation of CI/CD pipeline. 
+<br>If the traditional process of developing a software is giving us no issue, then <b>why is there a need of using Docker?</b> Let us consider a scenario where the developers are developing an application which uses the tech-stack that is based on combination of technologies such as React.js, Node.js, Firebase, GCP, etc. Now each of these technologies might require a different environment(dev/test/prod) or library/service compatibility with the operating system. This causes difficulty in proper integration of the software application. This is where using Docker turns out to be beneficial. 
+<br>
+Consider the image below:
+<img src="/images/DevOps-series-2/1.png">
+<br>
+Using Docker, each of the conflicting technologies can be allotted to a separate container that will take care of the dependency/compatibility issues.  Later by simply running the docker commands, one need not put much efforts for smooth work as before.
+<br>
+Now let's look at its installation and other setup configurations required:<br>
+<b>A. <u>Installation of Docker : </u></b><br>
+    Software requirements: Ubuntu 22.xx <br>
+    <ol>
+    <li>At your Terminal, first update the existing packages by running: <i>sudo apt update</i> <br>
+	Now install a few prerequisite packages which let apt use packages over HTTPS: <i>sudo apt install apt-transport-https ca-certificates curl software-properties-common</i> 
+    <img src="/images/DevOps-series-2/2.png">
+    </li>
+    <li>Then add the GPG key for the official Docker repository to your system:<br>
+	<i> $ curl -fsSL https://download.docker.com/linux/debian/gpg | apt-key add - </i><br>
+	in case this command gives an error saying No OpenPGP found, run the following commands:<br>
+	 <i>$ curl -s https://download.docker.com/linux/ubuntu/gpg | sudo gpg --no-default-keyring --keyring gnupg-ring:/etc/apt/trusted.gpg.d/dockerfile.gpg --import </i> <br>
+	 <i> $ sudo chmod 644 /etc/apt/trusted.gpg.d/dockerfile.gpg</i>
+    <img src="/images/DevOps-series-2/3.png">
+    </li>
+    <li> Add the Docker repository to APT sources: <i> $ sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu focal stable"</i>
+    <img src="/images/DevOps-series-2/4.png"></li>
+    <li>This will also update our package database with the Docker packages from the newly added repo. Make sure you are about to install from the Docker repo instead of the default Ubuntu repo: Notice that docker-ce is not installed, but the candidate for installation is from the Docker repository for Ubuntu 20.04 (focal).
+	<i>$ apt-cache policy docker-ce</i></li>
+    <img src="/images/DevOps-series-2/5.png"></li>
+    <li>Now proceed further with Docker installation. Use: <i> $ sudo apt install docker-ce</i>
+    <img src="/images/DevOps-series-2/6.png"></li>
+    </li>
+    <li>Once the installation is complete, check the status whether its active (running). <i>$ sudo systemctl status docker</i>
+    <img src="/images/DevOps-series-2/7.png">
+    </li></ol>
+<b>B. <u>Exploration & Working with Docker Images: </u></b><br>
+<i>docker [option] [command] [arguments] </i> is the syntax required with variety of options, commands and arguments available.<br>
+    <ol> <li>To begin with, in order to view system-wide information about Docker, use: <i>$ sudo docker info</i>
+    <img src="/images/DevOps-series-2/8.png">
+    </li> 
+    <li>Docker downloads images from the Docker-Hub. These are the images from where containers are built. You and me can host our own Docker Images at the hub. One such image is the hello-world image available. Using <i>$ docker run hello-world </i>at your system initially would give you a notification stating unable to find image locally.
+	After which it proceeds to continue downloading it from the remote repository.
+    <img src="/images/DevOps-series-2/9.png"></li>  
+    <li>One can search for other images available at docker using the search parameter. <i>$ sudo docker search [image name] </i>as shown below we are searching for Ubuntu image and that gives us the description, name, stars, and other details about Ubuntu image.
+    <img src="/images/DevOps-series-2/10.png"></li>
+    <li> Next up is the pull command where we can pull a container without running it straight away as seen in the case of hello-world above. <i> $ sudo docker pull [image-name]</i>
+    <img src="/images/DevOps-series-2/11.png"></li>
+    <li>In order to check the images that are present locally at your system use: <i> $ sudo docker images </i>
+    <img src="/images/DevOps-series-2/12.png"></li>
+    <li>Let’s run a container using the latest image of Ubuntu. The combination of the -i and -t switches gives you interactive shell access into the container by using the command - <i>$ sudo docker run -it ubuntu</i>
+    <img src="/images/DevOps-series-2/13.png"></li>
+    <li> Now you will be able to work inside this container if the terminal shows root@[container-id]:/# <br>
+	Let's proceed with installing nodejs.
+    <img src="/images/DevOps-series-2/14.png"><br>
+    You can now use all the basic cmd commands that we use at our terminal to check the version, update any package, etc.<br>
+    <img src="/images/DevOps-series-2/15.png"><br>
+    Type in exit to come out of that container.<br>
+    <img src="/images/DevOps-series-2/16.png"></li>
+    <li>To view the details of those containers that are active type in <i>$ sudo docker ps</i> whereas if you want to view both active as well as inactive containers, add a '-a' tag to it. In order to view the latest container append '-l' tag. 
+    <img src="/images/DevOps-series-2/17.png"><br>
+    <img src="/images/DevOps-series-2/17b.png"><br>
+    <img src="/images/DevOps-series-2/17c.png"></li>
+    <li> If you want to re-start a stopped container, use <i>$ sudo docker start [container-id] or [container-name]</i> as shown.
+    <img src="/images/DevOps-series-2/18.png"></li>
+    </li>
+    <li>Here, 'elastic_hawking' is the name for the container-id shown above.
+    <img src="/images/DevOps-series-2/19.png"></li>
+    <b>Note:</b> It is critical to use sudo docker rm [container-id] or [container-name] as all the changes that you have made in the container will be lost forever, which you wont be able to recover it. Unless you are sure of destroying the container, be careful. 
+    <li> After installing Node.js inside the Ubuntu container, you now have a container running off an image, but this container is different from the image you used to create it. So if you want to reuse this Node.js container as the basis for new images later, commit the changes to a new Docker image instance using the following command- <br>
+	<i>$ sudo docker commit -m "commit msg" -a "Author Name" container_id repository/new_image_name</i><br>
+	Here, commit message is "added node.js"<br>
+	Author name - 'angela'<br>
+	Container id - 5390xxxxxxxx<br>
+	And the container repository/new_image_name - angela/ubuntu-nodejs  (the repository is usually your Docker Hub username)<br>
+    <img src="/images/DevOps-series-2/20.png"></li>
+    </li>
+    <li>Listing the Docker images again will show the new image, as well as the old one that it was derived from using- <i> $ sudo docker images</i>
+    <img src="/images/DevOps-series-2/21.png"></li>
+    </ol>
+ <b>C. <u>Building a Simple Containerized Application</u></b><br>
+    <ol>
+    <li>Let's proceed further to build a simple containerized application. For this lets consider creating a python based app such that we have two files at the root directory :
+	main.py and Dockerfile. <br>
+    <img src="/images/DevOps-series-2/22.png"></li>
+    <li>Let the content of this main.py file be as shown. You can add your python script as convenient.
+    <img src="/images/DevOps-series-2/23.png"></li>
+    <li>Similarly, we need content for Dockerfile. In order to run a python file we need compatible dockerfile content. This content can be taken form the official site of Dockerhub by searching for python dockerfile. We have taken the same content as shown below.
+    <img src="/images/DevOps-series-2/24.png"></li>
+    <li>Now build your docker application by giving it any name for e.g. python-ap-test. Run the following command: <i>$ sudo docker build -t python-ap-test .  </i>
+    <img src="/images/DevOps-series-2/25.png"></li>
+    <li>If everything builds properly, you will see the exporting layers written with your given file name to the docker library.
+    <img src="/images/DevOps-series-2/26.png"></li>
+    <li>Now run your container. You should see the output of your main.py file. In our case it’s the print statement. It Works!<br>
+    <img src="/images/DevOps-series-2/27.png"></li>
+    <li>Once the script finishes executing the container becomes inactive. This can be checked with the ps -a command
+    <img src="/images/DevOps-series-2/28.png"></li>
+    </ol>
+By the end of this blog, if  implemented alongside, you must have got your hands dirty by creating a Docker application from scratch. This is how docker helps us in integrating different components of a system architecture by creating different containers & managing the same.
+<br><br>
+<b>Read Next: </b>
+<u>Jenkins installation, setup and exploration of the environment and demonstration of CI/CD.</u> 
+<br>
+<br>
+<b>References: </b><br>
+<ol>
+    <li>Python Dockerfile: <a href = "https://hub.docker.com/_/python">https://hub.docker.com/_/python </a></li>
+</ol>
+
+
+      </div>
+
+
+      <footer>
+        
+
+
+        
+        
+        
+      </footer>
+    </article>
+
+    
+  </section>
+
+    </div>
+
+    <footer class="footer">
+  <section class="container">
+    ©
+    
+      2020 -
+    
+    2023
+     Er. Angela Infanta Ramesh 
+    
+    
+  </section>
+</footer>
+
+  </main>
+
+  
+
+  
+  
+  <script src="/js/coder.min.236049395dc3682fb2719640872958e12f1f24067bb09c327b233e6290c7edac.js" integrity="sha256-I2BJOV3DaC&#43;ycZZAhylY4S8fJAZ7sJwyeyM&#43;YpDH7aw="></script>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</body>
+
+</html>

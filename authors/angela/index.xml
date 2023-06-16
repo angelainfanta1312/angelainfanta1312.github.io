@@ -6,14 +6,23 @@
     <description>Recent content in Angela on Angela Infanta</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 18 Apr 2023 12:31:19 +0530</lastBuildDate><atom:link href="http://angelainfanta1312.github.io/authors/angela/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 17 Jun 2023 00:31:06 +0530</lastBuildDate><atom:link href="http://angelainfanta1312.github.io/authors/angela/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Exploration of Docker for container management by developing a simple containerized application.</title>
+      <link>http://angelainfanta1312.github.io/posts/docker/</link>
+      <pubDate>Sat, 17 Jun 2023 00:31:06 +0530</pubDate>
+      
+      <guid>http://angelainfanta1312.github.io/posts/docker/</guid>
+      <description>Pre requisites: Knowledge on Operating Systems &amp; Containerization (Intermediate), Linux command-line usage (basic), devOps What is a Docker? A Docker is an application which helps us in the allocation and management of containers in an effective way. The installation of Docker on Linux- distros especially Ubuntu is much convenient than on Windows because of its functionality based on the Linux-kernel. Through this blog we will explore Docker at the beginner level thereby understanding the need of its usage and how it facilitates the automation of CI/CD pipeline.</description>
+    </item>
+    
     <item>
       <title>An Introduction to DevOps</title>
       <link>http://angelainfanta1312.github.io/posts/introduction-to-devops/</link>
       <pubDate>Tue, 18 Apr 2023 12:31:19 +0530</pubDate>
       
       <guid>http://angelainfanta1312.github.io/posts/introduction-to-devops/</guid>
-      <description>DevOps is a term that is used to describe the collective working culture of the Software Development and the Operations teams which enhances not only the rapid and continuous integration and delivery of the software but also the Client-Business relationship compared to any other traditional software Entity. Why is there a need for DevOps?
+      <description>DevOps is a term that is used to describe the collective working culture of the Software Development and the Operations teams which enhances not only the rapid and continuous integration and delivery of the software but also the Client-Business relationship compared to any other traditional software Entity.Why is there a need for DevOps?
 The Development team focuses primarily on fixing pre-existing features or developing new features as per the client requirement.</description>
     </item>
     

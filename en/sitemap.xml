@@ -2,17 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://angelainfanta1312.github.io/certifications/</loc>
-    <lastmod>2023-04-21T21:35:59+05:30</lastmod>
-  </url><url>
-    <loc>http://angelainfanta1312.github.io/posts/introduction-to-devops/</loc>
-    <lastmod>2023-04-18T12:31:19+05:30</lastmod>
-  </url><url>
     <loc>http://angelainfanta1312.github.io/authors/angela/</loc>
-    <lastmod>2023-04-18T12:31:19+05:30</lastmod>
+    <lastmod>2023-06-17T00:31:06+05:30</lastmod>
   </url><url>
     <loc>http://angelainfanta1312.github.io/</loc>
-    <lastmod>2023-04-18T12:31:19+05:30</lastmod>
+    <lastmod>2023-06-17T00:31:06+05:30</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-br"
@@ -25,7 +19,7 @@
                 />
   </url><url>
     <loc>http://angelainfanta1312.github.io/authors/</loc>
-    <lastmod>2023-04-18T12:31:19+05:30</lastmod>
+    <lastmod>2023-06-17T00:31:06+05:30</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-br"
@@ -38,13 +32,16 @@
                 />
   </url><url>
     <loc>http://angelainfanta1312.github.io/tags/devops/</loc>
-    <lastmod>2023-04-18T12:31:19+05:30</lastmod>
+    <lastmod>2023-06-17T00:31:06+05:30</lastmod>
+  </url><url>
+    <loc>http://angelainfanta1312.github.io/posts/docker/</loc>
+    <lastmod>2023-06-17T00:31:06+05:30</lastmod>
   </url><url>
     <loc>http://angelainfanta1312.github.io/posts/</loc>
-    <lastmod>2023-04-18T12:31:19+05:30</lastmod>
+    <lastmod>2023-06-17T00:31:06+05:30</lastmod>
   </url><url>
     <loc>http://angelainfanta1312.github.io/tags/</loc>
-    <lastmod>2023-04-18T12:31:19+05:30</lastmod>
+    <lastmod>2023-06-17T00:31:06+05:30</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-br"
@@ -57,6 +54,12 @@
                 />
   </url><url>
     <loc>http://angelainfanta1312.github.io/tags/technical/</loc>
+    <lastmod>2023-06-17T00:31:06+05:30</lastmod>
+  </url><url>
+    <loc>http://angelainfanta1312.github.io/certifications/</loc>
+    <lastmod>2023-04-21T21:35:59+05:30</lastmod>
+  </url><url>
+    <loc>http://angelainfanta1312.github.io/posts/introduction-to-devops/</loc>
     <lastmod>2023-04-18T12:31:19+05:30</lastmod>
   </url><url>
     <loc>http://angelainfanta1312.github.io/timeline-of-project/spotiface/</loc>
