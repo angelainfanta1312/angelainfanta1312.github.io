@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>
+  Jenkins installation and setup, explore the environment. Demonstrate continuous integration and development using Jenkins. · Angela Infanta
+</title>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
+
+
+
+
+<meta name="author" content="Er. Angela Infanta Ramesh">
+<meta name="description" content="Pre requisites: DevOps , Docker Continuous Integration (CI) and Continuous Development (CD) are the major areas in DevOps culture. Thus, Jenkins is a popular open-source Continuous Integration server written in Java which helps us to automate the process of Software Integration. Jenkins has over 1000 plugins that are available freely. These plugins help to integrate with various software tools for better convenience. We can hook it up with most of the repositories like SVN, Git, Mercurial, etc.">
+<meta name="keywords" content="blog, developer, personal">
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Jenkins installation and setup, explore the environment. Demonstrate continuous integration and development using Jenkins."/>
+<meta name="twitter:description" content="Pre requisites: DevOps , Docker Continuous Integration (CI) and Continuous Development (CD) are the major areas in DevOps culture. Thus, Jenkins is a popular open-source Continuous Integration server written in Java which helps us to automate the process of Software Integration. Jenkins has over 1000 plugins that are available freely. These plugins help to integrate with various software tools for better convenience. We can hook it up with most of the repositories like SVN, Git, Mercurial, etc."/>
+
+<meta property="og:title" content="Jenkins installation and setup, explore the environment. Demonstrate continuous integration and development using Jenkins." />
+<meta property="og:description" content="Pre requisites: DevOps , Docker Continuous Integration (CI) and Continuous Development (CD) are the major areas in DevOps culture. Thus, Jenkins is a popular open-source Continuous Integration server written in Java which helps us to automate the process of Software Integration. Jenkins has over 1000 plugins that are available freely. These plugins help to integrate with various software tools for better convenience. We can hook it up with most of the repositories like SVN, Git, Mercurial, etc." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://angelainfanta1312.github.io/posts/jenkins/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-06-22T18:12:03+05:30" />
+<meta property="article:modified_time" content="2023-06-22T18:12:03+05:30" />
+
+
+
+
+
+<link rel="canonical" href="http://angelainfanta1312.github.io/posts/jenkins/">
+
+
+<link rel="preload" href="/fonts/forkawesome-webfont.woff2?v=1.2.0" as="font" type="font/woff2" crossorigin>
+
+
+  
+  
+  <link rel="stylesheet" href="/css/coder.min.c4d7e93a158eda5a65b3df343745d2092a0a1e2170feeec909b8a89443903c6a.css" integrity="sha256-xNfpOhWO2lpls980N0XSCSoKHiFw/u7JCbiolEOQPGo=" crossorigin="anonymous" media="screen" />
+
+
+
+
+
+
+  
+    
+    
+    <link rel="stylesheet" href="/css/coder-dark.min.78b5fe3864945faf5207fb8fe3ab2320d49c3365def0e88ac1df0ddadc54a03c.css" integrity="sha256-eLX&#43;OGSUX69SB/uP46sjINScM2Xe8OiKwd8N2txUoDw=" crossorigin="anonymous" media="screen" />
+  
+
+
+
+ 
+
+
+
+
+<link rel="icon" type="image/png" href="/img/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/img/favicon-16x16.png" sizes="16x16">
+
+<link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+<meta name="generator" content="Hugo 0.106.0">
+
+
+
+
+
+  </head>
+
+
+
+
+
+
+<body class="preload-transitions colorscheme-auto">
+  
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+  <main class="wrapper">
+    <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="/">
+      Angela Infanta
+    </a>
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/about/">About</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/posts/">Blog</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/timeline-of-project/">Projects</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/certifications/">Certifications</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/contact/">Contact me</a>
+            </li>
+          
+        
+        
+          
+          
+          
+            
+          
+            
+              
+                <li class="navigation-item menu-separator">
+                  <span>|</span>
+                </li>
+                
+              
+              <li class="navigation-item">
+                <a href="http://angelainfanta1312.github.io/pt-br/">🇧🇷</a>
+              </li>
+            
+          
+        
+      </ul>
+    
+  </section>
+</nav>
+
+
+    <div class="content">
+      
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">
+            <a class="title-link" href="http://angelainfanta1312.github.io/posts/jenkins/">
+              Jenkins installation and setup, explore the environment. Demonstrate continuous integration and development using Jenkins.
+            </a>
+          </h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fa fa-calendar" aria-hidden="true"></i>
+              <time datetime="2023-06-22T18:12:03&#43;05:30">
+                June 22, 2023
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fa fa-clock-o" aria-hidden="true"></i>
+              8-minute read
+            </span>
+          </div>
+          <div class="authors">
+  <i class="fa fa-user" aria-hidden="true"></i>
+    <a href="/authors/angela/">Angela</a></div>
+
+          
+          <div class="tags">
+  <i class="fa fa-tag" aria-hidden="true"></i>
+    <span class="tag">
+      <a href="/tags/devops/">devOps</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/technical/">technical</a>
+    </span></div>
+
+        </div>
+      </header>
+
+      <div>
+        
+        
+
+<b>Pre requisites: </b><a  href = "https://angelainfanta1312.github.io/posts/introduction-to-devops/"> DevOps </a>, <a  href = "https://angelainfanta1312.github.io/posts/docker/"> Docker </a>
+<br><br>
+Continuous Integration (CI) and Continuous Development (CD) are the major areas in DevOps culture. Thus, Jenkins is a popular open-source Continuous Integration server written in Java which helps us to automate the process of Software Integration.
+Jenkins has over 1000 plugins that are available freely. These plugins help to integrate with various software tools for better convenience. We can hook it up with most of the repositories like SVN, Git, Mercurial, etc. For example, look at this image below:
+<img src="/images/DevOps-series-3/1.jpg"><sup>[1]</sup><br>
+
+A huge project which needs Testing, Management, Deployment & Monitoring is manually not feasible as this would take a lot of time, effort and integration complexity. Jenkins is a powerful platform to carry out these activities automatically and lets us know if there are any bugs at the earlier stage of integration.
+<br>
+In this blog, we will learn to setup Jenkins at our local machines, create a CI pipeline and check how it helps with automation by taking a sample project.<br>
+<b>A. <u>Installation & Setup of Jenkins : </u></b><br>
+    Software requirements: Ubuntu 22.xx <br>
+    <ol>
+    <li> At your Terminal, first update the existing packages by running a <i> $ sudo apt update </i> <br>
+	Next, add the repository key to the system using the command: <i>$ wget -q -O - https://pkg.jenkins.io/debian-stable/jenkins.io.key | sudo apt-key add -</i><br>
+	After the key is added the system will return with OK. After which append the Debian package repository address to the server’s sources.list using the command: <i>$ sudo sh -c 'echo deb http://pkg.jenkins.io/debian-stable binary/ > /etc/apt/sources.list.d/jenkins.list'</i><br>
+	Oops! I received an error.
+    <img src="/images/DevOps-series-3/2.png">
+    </li>
+    <li>In case of an error as shown above, use the following two commands to sign a key. <br>
+	<i>$ curl -fsSL https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key | sudo tee \ /usr/share/keyrings/jenkins-keyring.asc
+    > /dev/null <br> $ echo deb [signed-by=usr/share/keyrings/jenkins-keyring.asc] \ </i><br>
+	After both commands have been entered, we’ll run update so that apt will use the new repository.<br> <img src="/images/DevOps-series-3/3.png"></li>
+    <li>Finally, we’ll install Jenkins and its dependencies: <i>$ sudo apt install jenkins -y</i><br>
+    <img src="/images/DevOps-series-3/4.png"></li>
+    <li>Once the installation is complete, start the jenkins server- $ sudo systemctl start jenkins 
+	And then check the status whether its active (running). <i>$ sudo systemctl status jenkins</i> 
+    <img src="/images/DevOps-series-3/5.png">
+    </li>
+    <li>Check the firewall status and if found inactive, the following commands will allow OpenSSH and enable the firewall:<br>
+    <img src="/images/DevOps-series-3/6.png">
+    </li>
+    <li>By default, Jenkins runs on port 8080. We’ll open that port using ufw:<br>
+    <img src="/images/DevOps-series-3/7.png"><br>
+	With Jenkins installed and our firewall configured, we can complete the installation stage and dive into Jenkins setup.<br>
+    </li>
+    <li>We need to visit Jenkin at the default address: http://your_server_ip_or_domain:8080. You should receive the Unlock Jenkins screen, which displays the location of the initial password. Copy the 32-character alphanumeric password from the terminal and paste it into the Administrator password field, then click Continue.<br>
+    <img src="/images/DevOps-series-3/8.png"><br>
+    </li>
+    <li>Next click on  'Install Selected plugins' which will immediately begin the installation process.
+    <br>
+    <img src="/images/DevOps-series-3/9.png"><br>
+    </li>
+    <li>It’s possible to skip the user creation step and continue as admin using the initial password we used above, but we’ll take a moment to create the user.<br>
+    <img src="/images/DevOps-series-3/10.png"><br>
+    </li> 
+    <li>You’ll receive an Instance Configuration page that will ask you to confirm the preferred URL for your Jenkins instance. Confirm either the domain name for your server or your server’s IP address: In my case I choose it to be http://localhost:8080/ <br>
+     <img src="/images/DevOps-series-3/11.png"><br>
+    </li> 
+    <li>Once you click on 'Save and Finish', the setup is complete as shown.<br>
+     <img src="/images/DevOps-series-3/12.png"><br>
+    </li>
+</ol>
+<b>B. <u>Continuous Integration & Development Setup : </u></b><br>
+<ol>
+    <li>In order for Jenkins to watch our GitHub projects, we will need to create a Personal Access Token in our GitHub account.
+    <ul><li> Go to your github account, click on your user icon in the upper-right hand corner and select Settings from the drop down menu.</li>
+    <li> On the page that follows, locate the Developer settings section of the left-hand menu and click Personal access tokens (classic).</li>
+    <li>Click on Generate new token button on the next page</li>
+    <li>In the Token description box, add a description that will allow you to recognize it later- 'jenkins-integration'.</li>
+    <li>In the Select scopes section, check the repo:status, repo:public_repo and admin:org_hook boxes. These will allow Jenkins to update commit statuses and to create webhooks for the project. If you are using a private repository, you will need to select the general repo permission instead of the repo subitems</li>
+    </ul>
+    <img src="/images/DevOps-series-3/13.png"><br>
+    </li>
+    <li>When you are finished, click Generate token at the bottom. You will be redirected back to the Personal access tokens index page and your new token will displayed. Copy this token for future reference. Note: There is no way to retrieve the token once you leave this page!
+    <img src="/images/DevOps-series-3/14.png"><br>
+    </li>
+    <li>Now go to your terminal and run the following command- <i> $ sudo usermod -aG docker jenkins</i>. This is because, by default the Linux user responsible for running the Jenkins process cannot access Docker.</li>
+    <li>You can list the members of the docker group to confirm that the jenkins user has been added successfully typing- <i> $ grep docker /etc/group </i><br>
+	In order for the Jenkins to use its new membership, you need to restart the process:<i> $ sudo systemctl restart jenkins</i>
+    <img src="/images/DevOps-series-3/15.png"><br>	
+        Jenkins can now use Docker to run build and test tasks. 
+    </li>
+    <li> Go to the Dashboard->Manage jenkins -> Plugin manager. See the Available plugins and download Docker for Jenkins. The progress for Downloads will appear.
+    <img src="/images/DevOps-series-3/20.png"><br>	
+    </li>
+    <li>Now that we have a token, we need to add it to our Jenkins server so it can automatically set up webhooks. Log into your Jenkins web interface using the administrative account you configured during installation. From the main dashboard, click Credentials in the left hand menu. On the next page, click the arrow next to (global) within the Jenkins scope. In the box that appears, click Add credentials.
+    <img src="/images/DevOps-series-3/16.png"><br>	
+    </li>
+    <li>Under the Kind drop down menu, select Secret text. In the Secret field, paste your GitHub personal access token. Fill out the Description field so that you will be able to identify this entry at a later date. You can leave the Scope as Global and the ID field blank
+    <img src="/images/DevOps-series-3/17.png"><br>	
+    </li>
+    <li>Click the OK button when you are finished. You will now be able to reference these credentials from other parts of Jenkins to aid in configuration.</li>
+	<li>Back in the main Jenkins dashboard, click Manage Jenkins -> Configure System in the left hand menu. Scroll through the options on the next page until you find the GitHub section. Click the Add GitHub Server button and then select GitHub Server.  Click the Test connection button. Jenkins will make a test API call to your account and verify connectivity.
+    <img src="/images/DevOps-series-3/18.png"><br>
+    Once everything is done, click on Apply and save.	
+    </li>
+</ol>
+<b>C. <u>Creating a CI pipeline : </u></b><br>
+    To demonstrate how to use Jenkins to test an application, we will be using a simple “hello world” program created with Hapi.js. Because we are setting up Jenkins to react to pushes to the repository, you need to have your own copy of the demonstration code. We’ve added a 'Jenkinsfile' to the repo as well. Jenkins reads this file to determine the actions to run against the repository to build, test, or deploy. It is written using the declarative version of the Jenkins Pipeline DSL.
+    <ol><li>Back in the main Jenkins dashboard, click New Item ->Enter an item name -> Pipeline as the item type.
+    <img src="/images/DevOps-series-3/19.png"><br>
+    </li>
+    <li>Click on OK.Then go to your pipeline's configuration and scroll down to checkmark Github project box.  In the Project url field that appears, enter your project’s GitHub repository URL. Next, in the Build Triggers section, check the GitHub hook trigger for GITSCM polling box:
+    <img src="/images/DevOps-series-3/21.png"><br>
+    </li>
+    <li>In the Pipeline section, we need to tell Jenkins to run the pipeline defined in the Jenkinsfile in our repository. Change the Definition type to Pipeline script from SCM. In the new section that appears, choose Git in the SCM menu. In the Repository URL field that appears, enter the URL to your fork of the repository again and click on save.
+    <img src="/images/DevOps-series-3/22.png"><br>
+    </li>
+    <li>Jenkins does not automatically configure webhooks when you define the pipeline for the repository in the interface. In order to trigger Jenkins to set up the appropriate hooks, we need to perform a manual build the first time. In your pipeline’s main page, click Build Now in the hamburger menu. A new build will be scheduled. In the Build History box in the lower left corner, a new build should appear in a moment. Additionally, a Stage View will begin to be drawn in the main area of the interface. This will track the progress of your testing run as the different stages are completed.
+     <img src="/images/DevOps-series-3/23.png"><br>   
+    </li>
+    <li>The Build and eventual test failed because of internet connectivity issue. In order to check the cause of the build, one can go to the console output<br>
+    <img src="/images/DevOps-series-3/24.png"><br>   
+    In our case, it shows ERR_SOCKET_CONNECTION_TIMEOUT as seen below.
+    <img src="/images/DevOps-series-3/25.png"><br> 
+    After a retry, the test passes successfully as shown below.
+    <img src="/images/DevOps-series-3/26.png"><br> 
+    </li>
+    <li>Now that we’ve built the project once, we can have Jenkins create the webhooks for our project. Click Configure in the left hand menu of the pipeline -> click the Save button at the bottom. Now that the Jenkins has information about the project from the initial build process, it will register a webhook with our GitHub project when you save the page.<br>
+	You can verify this by going to your GitHub repository and clicking the Settings button. On the next page, click Webhooks from the side menu. You should see your Jenkins server webhook in the main interface.
+    <img src="/images/DevOps-series-3/27.png"><br> 
+    </li>
+    <li>Now let's add a commit at our github repository and check if this pipeline automatically rebuilds the pipeline for existing features. The screenshot below shows the pipeline after 1 commit, which passes the test successfully.</li>
+    <img src="/images/DevOps-series-3/28.png"><br> 
+    </li>
+</ol>
+In this way, one can continue adding in their code commits to their repository without having to test or build it manually each time since Jenkins now will take care of it.
+<br><br>
+<b>Read Next: </b>
+<a href="https://angelainfanta1312.github.io/posts/jenkins/"><u>Integrate Kubernetes and Docker by automating the process of running containerized applications developed in Docker using Kubernetes. </u> </a>
+<br><br>
+<b>References: </b><br>
+<ol>
+    <li><a href = "https://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2016/10/Jenkins-integration-jenkins-tutorial-Edureka.jpg">Different plugins available for Jenkins </a></li>
+    <li>Jenkins Documentation: <a href = "https://www.jenkins.io/doc/">https://www.jenkins.io/doc/</a></li>
+</ol>
+
+
+      </div>
+
+
+      <footer>
+        
+
+
+        
+        
+        
+      </footer>
+    </article>
+
+    
+  </section>
+
+    </div>
+
+    <footer class="footer">
+  <section class="container">
+    ©
+    
+      2020 -
+    
+    2023
+     Er. Angela Infanta Ramesh 
+    
+    
+  </section>
+</footer>
+
+  </main>
+
+  
+
+  
+  
+  <script src="/js/coder.min.236049395dc3682fb2719640872958e12f1f24067bb09c327b233e6290c7edac.js" integrity="sha256-I2BJOV3DaC&#43;ycZZAhylY4S8fJAZ7sJwyeyM&#43;YpDH7aw="></script>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</body>
+
+</html>
