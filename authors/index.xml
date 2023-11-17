@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Authors on Angela Infanta</title>
-    <link>https://angelainfanta1312.github.io/authors/</link>
+    <link>http://angelainfanta1312.github.io/authors/</link>
     <description>Recent content in Authors on Angela Infanta</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Thu, 22 Jun 2023 18:12:03 +0530</lastBuildDate>
-    <atom:link href="https://angelainfanta1312.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://angelainfanta1312.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Angela</title>
-      <link>https://angelainfanta1312.github.io/authors/angela/</link>
+      <link>http://angelainfanta1312.github.io/authors/angela/</link>
       <pubDate>Thu, 22 Jun 2023 18:12:03 +0530</pubDate>
-      <guid>https://angelainfanta1312.github.io/authors/angela/</guid>
+      <guid>http://angelainfanta1312.github.io/authors/angela/</guid>
       <description></description>
     </item>
   </channel>

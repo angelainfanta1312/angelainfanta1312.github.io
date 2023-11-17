@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Angela on Angela Infanta</title>
-    <link>https://angelainfanta1312.github.io/authors/angela/</link>
+    <link>http://angelainfanta1312.github.io/authors/angela/</link>
     <description>Recent content in Angela on Angela Infanta</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Thu, 22 Jun 2023 18:12:03 +0530</lastBuildDate>
-    <atom:link href="https://angelainfanta1312.github.io/authors/angela/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://angelainfanta1312.github.io/authors/angela/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Jenkins installation and setup, explore the environment. Demonstrate continuous integration and development using Jenkins.</title>
-      <link>https://angelainfanta1312.github.io/posts/jenkins/</link>
+      <link>http://angelainfanta1312.github.io/posts/jenkins/</link>
       <pubDate>Thu, 22 Jun 2023 18:12:03 +0530</pubDate>
-      <guid>https://angelainfanta1312.github.io/posts/jenkins/</guid>
+      <guid>http://angelainfanta1312.github.io/posts/jenkins/</guid>
       <description>Pre requisites: DevOps , Docker Continuous Integration (CI) and Continuous Development (CD) are the major areas in DevOps culture. Thus, Jenkins is a popular open-source Continuous Integration server written in Java which helps us to automate the process of Software Integration. Jenkins has over 1000 plugins that are available freely. These plugins help to integrate with various software tools for better convenience. We can hook it up with most of the repositories like SVN, Git, Mercurial, etc.</description>
     </item>
     <item>
       <title>Exploration of Docker for container management by developing a simple containerized application.</title>
-      <link>https://angelainfanta1312.github.io/posts/docker/</link>
+      <link>http://angelainfanta1312.github.io/posts/docker/</link>
       <pubDate>Sat, 17 Jun 2023 00:31:06 +0530</pubDate>
-      <guid>https://angelainfanta1312.github.io/posts/docker/</guid>
+      <guid>http://angelainfanta1312.github.io/posts/docker/</guid>
       <description>Pre requisites: Knowledge on Operating Systems &amp; Containerization (Intermediate), Linux command-line usage (basic), devOps What is a Docker? A Docker is an application which helps us in the allocation and management of containers in an effective way. The installation of Docker on Linux- distros especially Ubuntu is much convenient than on Windows because of its functionality based on the Linux-kernel. Through this blog we will explore Docker at the beginner level thereby understanding the need of its usage and how it facilitates the automation of CI/CD pipeline.</description>
     </item>
     <item>
       <title>An Introduction to DevOps</title>
-      <link>https://angelainfanta1312.github.io/posts/introduction-to-devops/</link>
+      <link>http://angelainfanta1312.github.io/posts/introduction-to-devops/</link>
       <pubDate>Tue, 18 Apr 2023 12:31:19 +0530</pubDate>
-      <guid>https://angelainfanta1312.github.io/posts/introduction-to-devops/</guid>
+      <guid>http://angelainfanta1312.github.io/posts/introduction-to-devops/</guid>
       <description>DevOps is a term that is used to describe the collective working culture of the Software Development and the Operations teams which enhances not only the rapid and continuous integration and delivery of the software but also the Client-Business relationship compared to any other traditional software Entity.Why is there a need for DevOps?
 The Development team focuses primarily on fixing pre-existing features or developing new features as per the client requirement.</description>
     </item>
     <item>
       <title>Exaustion</title>
-      <link>https://angelainfanta1312.github.io/posts/exhaustion/</link>
+      <link>http://angelainfanta1312.github.io/posts/exhaustion/</link>
       <pubDate>Mon, 06 Feb 2023 23:58:08 +0530</pubDate>
-      <guid>https://angelainfanta1312.github.io/posts/exhaustion/</guid>
+      <guid>http://angelainfanta1312.github.io/posts/exhaustion/</guid>
       <description>I fret about the past,
 While impatient of my future,
 And there is exhaustion at the present,
@@ -51,9 +51,9 @@ I don&amp;rsquo;t think this ever comes to an end,</description>
     </item>
     <item>
       <title>A Thought Undefined</title>
-      <link>https://angelainfanta1312.github.io/posts/a-thought-undefined/</link>
+      <link>http://angelainfanta1312.github.io/posts/a-thought-undefined/</link>
       <pubDate>Mon, 02 Jan 2023 20:39:57 +0530</pubDate>
-      <guid>https://angelainfanta1312.github.io/posts/a-thought-undefined/</guid>
+      <guid>http://angelainfanta1312.github.io/posts/a-thought-undefined/</guid>
       <description>The thought of you brings tears sometimes
 I really don&amp;rsquo;t know how one could invade.
 the Tier 0 space in my heart.
@@ -66,9 +66,9 @@ A thought which I&amp;rsquo;m trying to define,</description>
     </item>
     <item>
       <title>If it is meant to be, will it be?</title>
-      <link>https://angelainfanta1312.github.io/posts/if-it-is-meant-to-be/</link>
+      <link>http://angelainfanta1312.github.io/posts/if-it-is-meant-to-be/</link>
       <pubDate>Fri, 14 Oct 2022 20:19:41 +0530</pubDate>
-      <guid>https://angelainfanta1312.github.io/posts/if-it-is-meant-to-be/</guid>
+      <guid>http://angelainfanta1312.github.io/posts/if-it-is-meant-to-be/</guid>
       <description>2 years of hard work gave me unexpected results,
 No they weren&amp;rsquo;t positive.
 I needed an exotic fruit, but those results gave me rotten smell,
@@ -81,9 +81,9 @@ Maybe I was insane to choose a harder way,</description>
     </item>
     <item>
       <title>Happy Birthday Julie!</title>
-      <link>https://angelainfanta1312.github.io/posts/happy-birthday-julie/</link>
+      <link>http://angelainfanta1312.github.io/posts/happy-birthday-julie/</link>
       <pubDate>Sun, 04 Sep 2022 20:16:59 +0530</pubDate>
-      <guid>https://angelainfanta1312.github.io/posts/happy-birthday-julie/</guid>
+      <guid>http://angelainfanta1312.github.io/posts/happy-birthday-julie/</guid>
       <description>Happy Birthday to You…(2)
 Happy Birthday dear Julie
 Happy Birthday to You
@@ -100,9 +100,9 @@ For your work life break through,</description>
     </item>
     <item>
       <title>Definition of Fun</title>
-      <link>https://angelainfanta1312.github.io/posts/definition-of-fun/</link>
+      <link>http://angelainfanta1312.github.io/posts/definition-of-fun/</link>
       <pubDate>Fri, 29 Jul 2022 20:07:07 +0530</pubDate>
-      <guid>https://angelainfanta1312.github.io/posts/definition-of-fun/</guid>
+      <guid>http://angelainfanta1312.github.io/posts/definition-of-fun/</guid>
       <description>At an age group with Netflix binges, counterfeits and heartaches,
 I found a pendant carrying dreams, failures and responsibility as a Load.
 It preferred Late night Hustles, Many coffee cups and Limited breaks,
@@ -115,9 +115,9 @@ Maybe the clubbers found it boring and a regret for missing out a moment,</descr
     </item>
     <item>
       <title>Friends through a 4-year sail...</title>
-      <link>https://angelainfanta1312.github.io/posts/friends-through-a-4-year-sail/</link>
+      <link>http://angelainfanta1312.github.io/posts/friends-through-a-4-year-sail/</link>
       <pubDate>Fri, 22 Jul 2022 19:58:12 +0530</pubDate>
-      <guid>https://angelainfanta1312.github.io/posts/friends-through-a-4-year-sail/</guid>
+      <guid>http://angelainfanta1312.github.io/posts/friends-through-a-4-year-sail/</guid>
       <description>It&amp;rsquo;s long time that I wrote an Essay.
 I&amp;rsquo;ll try my best with a poem to portray.
 Past were the days when my parents were fed up with their career

@@ -2,160 +2,160 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://angelainfanta1312.github.io/authors/angela/</loc>
+    <loc>http://angelainfanta1312.github.io/authors/angela/</loc>
     <lastmod>2023-06-22T18:12:03+05:30</lastmod>
   </url><url>
-    <loc>https://angelainfanta1312.github.io/</loc>
-    <lastmod>2023-06-22T18:12:03+05:30</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt-br"
-                href="https://angelainfanta1312.github.io/pt-br/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://angelainfanta1312.github.io/"
-                />
-  </url><url>
-    <loc>https://angelainfanta1312.github.io/authors/</loc>
+    <loc>http://angelainfanta1312.github.io/</loc>
     <lastmod>2023-06-22T18:12:03+05:30</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-br"
-                href="https://angelainfanta1312.github.io/pt-br/authors/"
+                href="http://angelainfanta1312.github.io/pt-br/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://angelainfanta1312.github.io/authors/"
+                href="http://angelainfanta1312.github.io/"
                 />
   </url><url>
-    <loc>https://angelainfanta1312.github.io/tags/devops/</loc>
-    <lastmod>2023-06-22T18:12:03+05:30</lastmod>
-  </url><url>
-    <loc>https://angelainfanta1312.github.io/posts/jenkins/</loc>
-    <lastmod>2023-06-22T18:12:03+05:30</lastmod>
-  </url><url>
-    <loc>https://angelainfanta1312.github.io/posts/</loc>
-    <lastmod>2023-06-22T18:12:03+05:30</lastmod>
-  </url><url>
-    <loc>https://angelainfanta1312.github.io/tags/</loc>
+    <loc>http://angelainfanta1312.github.io/authors/</loc>
     <lastmod>2023-06-22T18:12:03+05:30</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-br"
-                href="https://angelainfanta1312.github.io/pt-br/tags/"
+                href="http://angelainfanta1312.github.io/pt-br/authors/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://angelainfanta1312.github.io/tags/"
+                href="http://angelainfanta1312.github.io/authors/"
                 />
   </url><url>
-    <loc>https://angelainfanta1312.github.io/tags/technical/</loc>
+    <loc>http://angelainfanta1312.github.io/tags/devops/</loc>
     <lastmod>2023-06-22T18:12:03+05:30</lastmod>
   </url><url>
-    <loc>https://angelainfanta1312.github.io/posts/docker/</loc>
+    <loc>http://angelainfanta1312.github.io/posts/jenkins/</loc>
+    <lastmod>2023-06-22T18:12:03+05:30</lastmod>
+  </url><url>
+    <loc>http://angelainfanta1312.github.io/posts/</loc>
+    <lastmod>2023-06-22T18:12:03+05:30</lastmod>
+  </url><url>
+    <loc>http://angelainfanta1312.github.io/tags/</loc>
+    <lastmod>2023-06-22T18:12:03+05:30</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="http://angelainfanta1312.github.io/pt-br/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://angelainfanta1312.github.io/tags/"
+                />
+  </url><url>
+    <loc>http://angelainfanta1312.github.io/tags/technical/</loc>
+    <lastmod>2023-06-22T18:12:03+05:30</lastmod>
+  </url><url>
+    <loc>http://angelainfanta1312.github.io/posts/docker/</loc>
     <lastmod>2023-06-17T00:31:06+05:30</lastmod>
   </url><url>
-    <loc>https://angelainfanta1312.github.io/certifications/</loc>
+    <loc>http://angelainfanta1312.github.io/certifications/</loc>
     <lastmod>2023-04-21T21:35:59+05:30</lastmod>
   </url><url>
-    <loc>https://angelainfanta1312.github.io/posts/introduction-to-devops/</loc>
+    <loc>http://angelainfanta1312.github.io/posts/introduction-to-devops/</loc>
     <lastmod>2023-04-18T12:31:19+05:30</lastmod>
   </url><url>
-    <loc>https://angelainfanta1312.github.io/timeline-of-project/spotiface/</loc>
+    <loc>http://angelainfanta1312.github.io/timeline-of-project/spotiface/</loc>
     <lastmod>2023-03-26T15:04:19+05:30</lastmod>
   </url><url>
-    <loc>https://angelainfanta1312.github.io/timeline-of-project/</loc>
+    <loc>http://angelainfanta1312.github.io/timeline-of-project/</loc>
     <lastmod>2023-03-26T15:04:19+05:30</lastmod>
   </url><url>
-    <loc>https://angelainfanta1312.github.io/timeline-of-project/implementation-of-different-software-mechanisms-ii/</loc>
+    <loc>http://angelainfanta1312.github.io/timeline-of-project/implementation-of-different-software-mechanisms-ii/</loc>
     <lastmod>2023-02-20T19:31:39+05:30</lastmod>
   </url><url>
-    <loc>https://angelainfanta1312.github.io/posts/exhaustion/</loc>
+    <loc>http://angelainfanta1312.github.io/posts/exhaustion/</loc>
     <lastmod>2023-02-06T23:58:08+05:30</lastmod>
   </url><url>
-    <loc>https://angelainfanta1312.github.io/tags/non-technical/</loc>
+    <loc>http://angelainfanta1312.github.io/tags/non-technical/</loc>
     <lastmod>2023-02-06T23:58:08+05:30</lastmod>
   </url><url>
-    <loc>https://angelainfanta1312.github.io/tags/poem/</loc>
+    <loc>http://angelainfanta1312.github.io/tags/poem/</loc>
     <lastmod>2023-02-06T23:58:08+05:30</lastmod>
   </url><url>
-    <loc>https://angelainfanta1312.github.io/timeline-of-project/implementation-of-different-software-testing-mechanisms-i/</loc>
+    <loc>http://angelainfanta1312.github.io/timeline-of-project/implementation-of-different-software-testing-mechanisms-i/</loc>
     <lastmod>2023-01-05T19:31:39+05:30</lastmod>
   </url><url>
-    <loc>https://angelainfanta1312.github.io/posts/a-thought-undefined/</loc>
+    <loc>http://angelainfanta1312.github.io/posts/a-thought-undefined/</loc>
     <lastmod>2023-01-02T20:39:57+05:30</lastmod>
   </url><url>
-    <loc>https://angelainfanta1312.github.io/contact/</loc>
+    <loc>http://angelainfanta1312.github.io/contact/</loc>
     <lastmod>2022-11-25T15:15:47+05:30</lastmod>
   </url><url>
-    <loc>https://angelainfanta1312.github.io/about/</loc>
+    <loc>http://angelainfanta1312.github.io/about/</loc>
     <lastmod>2022-11-25T10:45:58+05:30</lastmod>
   </url><url>
-    <loc>https://angelainfanta1312.github.io/posts/if-it-is-meant-to-be/</loc>
+    <loc>http://angelainfanta1312.github.io/posts/if-it-is-meant-to-be/</loc>
     <lastmod>2022-10-14T20:19:41+05:30</lastmod>
   </url><url>
-    <loc>https://angelainfanta1312.github.io/tags/friends/</loc>
+    <loc>http://angelainfanta1312.github.io/tags/friends/</loc>
     <lastmod>2022-09-04T20:16:59+05:30</lastmod>
   </url><url>
-    <loc>https://angelainfanta1312.github.io/posts/happy-birthday-julie/</loc>
+    <loc>http://angelainfanta1312.github.io/posts/happy-birthday-julie/</loc>
     <lastmod>2022-09-04T20:16:59+05:30</lastmod>
   </url><url>
-    <loc>https://angelainfanta1312.github.io/posts/definition-of-fun/</loc>
+    <loc>http://angelainfanta1312.github.io/posts/definition-of-fun/</loc>
     <lastmod>2022-07-29T20:07:07+05:30</lastmod>
   </url><url>
-    <loc>https://angelainfanta1312.github.io/posts/friends-through-a-4-year-sail/</loc>
+    <loc>http://angelainfanta1312.github.io/posts/friends-through-a-4-year-sail/</loc>
     <lastmod>2022-07-22T19:58:12+05:30</lastmod>
   </url><url>
-    <loc>https://angelainfanta1312.github.io/timeline-of-project/deploying-a-machine-learning-model-on-aws/</loc>
+    <loc>http://angelainfanta1312.github.io/timeline-of-project/deploying-a-machine-learning-model-on-aws/</loc>
     <lastmod>2022-03-06T18:39:03+05:30</lastmod>
   </url><url>
-    <loc>https://angelainfanta1312.github.io/timeline-of-project/hate-speech-detection/</loc>
+    <loc>http://angelainfanta1312.github.io/timeline-of-project/hate-speech-detection/</loc>
     <lastmod>2022-02-05T18:38:25+05:30</lastmod>
   </url><url>
-    <loc>https://angelainfanta1312.github.io/timeline-of-project/classification-of-legal-contracts-using-hadoop/</loc>
+    <loc>http://angelainfanta1312.github.io/timeline-of-project/classification-of-legal-contracts-using-hadoop/</loc>
     <lastmod>2021-10-05T18:40:35+05:30</lastmod>
   </url><url>
-    <loc>https://angelainfanta1312.github.io/timeline-of-project/impact-of-pandemic-on-global-finance/</loc>
+    <loc>http://angelainfanta1312.github.io/timeline-of-project/impact-of-pandemic-on-global-finance/</loc>
     <lastmod>2021-07-15T18:39:55+05:30</lastmod>
   </url><url>
-    <loc>https://angelainfanta1312.github.io/timeline-of-project/estore-for-farmers-buying-seeds/</loc>
+    <loc>http://angelainfanta1312.github.io/timeline-of-project/estore-for-farmers-buying-seeds/</loc>
     <lastmod>2021-06-01T18:36:34+05:30</lastmod>
   </url><url>
-    <loc>https://angelainfanta1312.github.io/timeline-of-project/is-mu/</loc>
+    <loc>http://angelainfanta1312.github.io/timeline-of-project/is-mu/</loc>
     <lastmod>2020-11-24T18:27:56+05:30</lastmod>
   </url><url>
-    <loc>https://angelainfanta1312.github.io/timeline-of-project/swarm-robotics/</loc>
+    <loc>http://angelainfanta1312.github.io/timeline-of-project/swarm-robotics/</loc>
     <lastmod>2020-03-10T18:16:05+05:30</lastmod>
   </url><url>
-    <loc>https://angelainfanta1312.github.io/timeline-of-project/tech-news-aggregator/</loc>
+    <loc>http://angelainfanta1312.github.io/timeline-of-project/tech-news-aggregator/</loc>
     <lastmod>2020-02-05T18:38:08+05:30</lastmod>
   </url><url>
-    <loc>https://angelainfanta1312.github.io/categories/</loc>
+    <loc>http://angelainfanta1312.github.io/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-br"
-                href="https://angelainfanta1312.github.io/pt-br/categories/"
+                href="http://angelainfanta1312.github.io/pt-br/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://angelainfanta1312.github.io/categories/"
+                href="http://angelainfanta1312.github.io/categories/"
                 />
   </url><url>
-    <loc>https://angelainfanta1312.github.io/series/</loc>
+    <loc>http://angelainfanta1312.github.io/series/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-br"
-                href="https://angelainfanta1312.github.io/pt-br/series/"
+                href="http://angelainfanta1312.github.io/pt-br/series/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://angelainfanta1312.github.io/series/"
+                href="http://angelainfanta1312.github.io/series/"
                 />
   </url>
 </urlset>
